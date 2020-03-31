@@ -109,7 +109,7 @@ THIS SETUP IS ONLY FOR LINUX USERS
 	http://localhost:9090
 	http://localhost:9100/metrics
 
-### Adding Graphana
+### Adding Grafana
 	
 	>> curl -LO https://s3-us-west-2.amazonaws.com/grafana-releases/release/grafana_5.1.4_amd64.deb ;
 	>> sudo apt-get install -y adduser libfontconfig ;
@@ -117,6 +117,6 @@ THIS SETUP IS ONLY FOR LINUX USERS
 	>> sudo systemctl start grafana-server ;
 	>> sudo systemctl enable grafana-server
 
-Graphana will be running on port 3000
+Grafana will be running on port 3000
 Default username and password is : admin, admin
 
